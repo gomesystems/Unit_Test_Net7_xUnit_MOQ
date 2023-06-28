@@ -22,3 +22,16 @@ Confiável: Quando os testes estão passando e sendo executados automaticamente,
 # O que é Mocking? 
 Quando um serviço depende de outro serviço e queremos testar esse serviço.
 Em vez de fazer o processo de inicialização completo do segundo serviço, podemos MOCKAR ele (fingir que está totalmente funcional) e podemos executar nossos testes com base nisso.
+
+
+# Comandos 
+dotnet new console -n "SeuProjetoTest"
+
+nuget packages
+  dotnet add package Microsoft.NET.Test.Sdk 
+  dotnet add package xunit 
+  dotnet add package xunit.runner.visualstudio 
+  dotnet add package coverlet.collector 
+
+dotnet new xunit -n "SeuProjetoTest.Test"
+dotnet add package Moq 
