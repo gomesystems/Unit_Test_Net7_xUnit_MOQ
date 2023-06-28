@@ -27,7 +27,6 @@ Em vez de fazer o processo de inicialização completo do segundo serviço, pode
 # Comandos 
 dotnet new console -n "SeuProjetoTest"
 
-nuget packages
   dotnet add package Microsoft.NET.Test.Sdk 
   
   dotnet add package xunit 
